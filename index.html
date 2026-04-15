@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu container">
+
+            <a href="#" class="logo">menu</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img class="menu-icono" src="imagenes/menu-btn.png"></label>
+            <nav class="navbar">
+                <ul>
+
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#services">servicios</a></li>
+                    <li><a href="#photos">fotos</a></li>
+                    <li><a href="#contact">contacto</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="header-text">
+
+            <h1> TAPIMON </h1>
+
+            <p>Tapimon le da la bienvenida a conocer todos sus servicio de Fabricacion, Restauracion y Reparacion </p>
+
+            <a href="#" class="btn-1">mas informacion</a>
+
+        </div>
+
+
+    </header>
+
+    <section class="seccion-img">
+
+        <img src="img2/logo2.PNG" alt="">
+    </section>
+
+    <main class="services conatiner" id="services">
+
+        <h2>servicios</h2>
+        <p class="txt">En Tapimon le ofrecemo el mejor servicio en tapiceria domestica y automotriz
+
+        </p>
+
+        <div class="group-services">
+            <div class="group">
+                <img src="imagenes/group.svg" alt="">
+                <h3>profesionalismo</h3>
+                <p>cumplimos con cualquier exigencia</p>
+            </div>
+
+            <div class="group-services">
+                <div class="group">
+                    <img src="imagenes/shop.svg" alt="">
+                    <h3>Metodo de pago </h3>
+                    <p>Comodos y flexibles </p>
+                </div>
+
+                <div class="group-services">
+                    <div class="group">
+                        <img src="imagenes/internet.svg" alt="">
+                        <h3>Nos encuentran</h3>
+                        <p>En san franciso av.union con manzanillo </p>
+                    </div>
+
+                </div>
+                <a class="btn-2" href="#">saber mas</a>
+    </main>
+
+
+    <section class="photos container" id="photos">
+
+        <div class="photos-txt">
+            <h2>A continuacion unas imagenes de nuestros trabajos </h2>
+            <p>hacemos lo que tengas en mente </p>
+            <a href="#" class="btn-1">mas imformacion</a>
+        </div>
+        <div class="imgs">
+            <img src="img2/mueble.jpg" alt="">
+            <img src="img2/cama.jpg" alt="">
+            <img src="img2/butaca.jpg" alt="">
+
+
+        </div>
+
+    </section>
+
+    <section class="numbers container">
+        <h2>contactanos</h2>
+        <div class="numbers-group">
+            <div class="number">
+                <h3>Tlf.</h3>
+                <p>0424-6729172</p>
+            </div>
+            <div class="number">
+                <h3>Tlf.</h3>
+                <p>0412-1239592</p>
+            </div>
+            <div class="number">
+                <h3>INSTAGRAM</h3>
+                <p>@TAPIMONVZLA</p>
+            </div>
+        </div>
+
+        <a href="#" class="btn-2">saber mas</a>
+
+    </section>
+
+    <footer id="contact">
+        <div class="f container">
+            <div class="ft-a">
+                <h3>TAPIMONVZLA</h3>
+                <li><a href="#">Miguel Ramon Barreto Diaz</a></li>
+                <li><a href="#">C.I: 8989033</a></li>
+                <li><a href="#">tlf:0424-6729172</a></li>
+                <li><a href="#">propietario de la empresa</a></li>
+            </div>
+            <div class="form-text">
+                <h3>correo</h3>
+                <p>redacta tu opinion</p>
+
+                <form>
+                    <input class="email" type="text">
+                    <br>
+                    <input class="btn-3" type="submit" value="enviar">
+
+                </form>
+
+            </div>
+
+
+    </footer>
+
+
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
+
+    <input type="checkbox" id="dash-toggle" class="hidden-check">
+    <label for="dash-toggle" class="float-btn">👤 Acceder / Unirse</label>
+
+    <div class="side-panel">
+        <div class="panel-header">
+            <label for="dash-toggle" class="close-btn"><img src="imagenes/cross botton.png" width="40" alt=""></label>
+            <h3>Área de Usuario</h3>
+        </div>
+
+        <div class="tab-system">
+            <input type="radio" name="tabs" id="tab-login" checked>
+            <input type="radio" name="tabs" id="tab-register">
+
+            <div class="tab-nav">
+                <label for="tab-login">Iniciar Sesión</label>
+                <label for="tab-register">Registrarse</label>
+            </div>
+
+            <div class="tab-content">
+                <form id="login-form" class="content-login">
+                    <div class="input-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" placeholder="ejemplo@correo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Contraseña</label>
+                        <input type="password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Entrar</button>
+                </form>
+
+                <form id="register-form" class="content-register">
+                    <div class="input-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Crea una Contraseña</label>
+                        <input type="password" placeholder="Mínimo 8 caracteres" required>
+                    </div>
+                    <button type="submit" class="submit-btn register">Crear Cuenta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
